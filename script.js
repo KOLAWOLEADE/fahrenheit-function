@@ -28,7 +28,13 @@ document.write(Gallon(A, B ));
 
 // Litter function
 
-let A = parseInt(prompt("input value of litter"));
-let B = 0.26417205236
+let D = parseInt(prompt("input value of litter"));
+let E = ( 0.26417205236 )
 
-function litter ( A, B)
+function litter ( D, E){
+    return D*E
+}
+
+alert(litter(D,E));
+console.log(litter(D,E));
+document.write(litter(D,E));
